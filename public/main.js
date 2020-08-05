@@ -1,3 +1,5 @@
+const dotenv = require('dotenv');
+dotenv.config();
 
 const item = document.querySelector('.item');
 const img = item.querySelector('img');
